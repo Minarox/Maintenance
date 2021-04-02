@@ -1,0 +1,33 @@
+/* Paramètres CSS globaux */
+body {
+	background-image: url("../images/fond.png");
+	background-repeat: repeat;
+	background-position: center;
+	background-color: #171717;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Taille et emplacement du texte du logo */
+.logo {
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+/* Taille et emplacement du texte au centre de la page */
+.texte {
+	margin-top: 50vh;
+	transform: translateY(-50%);
+	font-size: 30px;
+}
+
+/* Texte en gras */
+#gras {
+	font-weight: 700;
+}
+
+/* Emplacement des liens */
+.liens {
+	margin-bottom: 40px;
+}

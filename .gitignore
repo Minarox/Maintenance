@@ -1,0 +1,5 @@
+# Ignore IntelliJ folder
+.idea/
+
+# Ignore default iml file
+Minarox.fr.iml

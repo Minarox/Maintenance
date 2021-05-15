@@ -1,33 +1,59 @@
-/* Paramètres CSS globaux */
+* {
+	margin: 0;
+	padding: 0;
+	user-select: unset;
+}
+
 body {
-	background-image: url("../images/fond.png");
-	background-repeat: repeat;
-	background-position: center;
-	background-color: #171717;
+	background: url("../img/fond.png"), linear-gradient(to bottom left, #0f0f18, #373753);
+	background-repeat: no-repeat;
+	background-position: top right;
+	height: 88vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 6vh 8vh;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	text-align: center;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
 }
 
-/* Taille et emplacement du texte du logo */
-.logo {
-	margin-top: 20px;
-	font-weight: 700;
-	font-size: 30px;
+header {
+	margin-top: -4vh;
 }
 
-/* Taille et emplacement du texte au centre de la page */
-.texte {
-	margin-top: 50vh;
-	transform: translateY(-50%);
-	font-size: 30px;
+img {
+	width: 140px;
 }
 
-/* Texte en gras */
-#gras {
-	font-weight: 700;
+h1 {
+	font-size: 2.4em;
 }
 
-/* Emplacement des liens */
-.liens {
-	margin-bottom: 40px;
+main {
+	width: 100%;
+	margin-bottom: 6vh;
+}
+
+p {
+	font-size: 1.4em;
+}
+
+p:first-of-type {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+svg {
+	transition: transform .2s;
+}
+
+svg:hover {
+	transform: scale(1.3);
+}
+
+a {
+	text-decoration: none;
+	margin: 0 14px;
 }
